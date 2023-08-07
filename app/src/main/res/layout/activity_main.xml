@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_blue"
-    tools:context=".MainActivity" >
+    tools:context=".Activites.MainActivity" >
 
     <ImageView
         android:id="@+id/imageView"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/introBtn"
         style="@style/Widget.AppCompat.Button"
         android:background="@drawable/button_background"
         android:textColor="@color/white"
