@@ -13,13 +13,13 @@
         android:theme="@style/Theme.MaterialDesign"
         tools:targetApi="31">
         <activity
-            android:name=".DashboardActivity"
+            android:name=".Activites.DashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".Activites.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activites.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
