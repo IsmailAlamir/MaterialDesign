@@ -61,7 +61,7 @@ public class TrendsAdapter extends RecyclerView.Adapter<TrendsAdapter.ViewHolder
             super(itemView);
             title= itemView.findViewById(R.id.titleTxt);
             subtitle= itemView.findViewById(R.id.subtitleTxt);
-            subtitle= itemView.findViewById(R.id.pic);
+            pic= itemView.findViewById(R.id.pic);
 
         }
     }
